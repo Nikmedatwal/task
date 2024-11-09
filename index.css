@@ -1,0 +1,207 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+
+  }
+  .background
+  {
+    background-image: url("assets/Client-First - IMAGES/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.svg");
+    background-size: 1400px 400px;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: #111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .subscribe-btn {
+    background-color: #FFD400;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Main Post Banner */
+  .main-post-banner {
+    background-image: url('main-post-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .main-post-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .post-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .category {
+    font-size: 14px;
+    color: #FFD400;
+    text-transform: uppercase;
+  }
+  
+  .post-content h1 {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  .read-more-btn {
+    background-color: #FFD400;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Featured and All Posts Section */
+  .posts-section {
+    display: flex;
+    padding: 40px 20px;
+    gap: 20px;
+  }
+  
+  .featured-post, .all-posts {
+    width: 50%;
+  }
+  
+  .featured-post h2, .all-posts h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .post img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .all-posts ul {
+    list-style: none;
+  }
+  
+  .view-all {
+    float: right;
+    color: #888;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: -35px;
+  }
+  
+  /* About Section */
+  .about-section {
+    display: flex;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Categories */
+  .categories {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .category-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .category-item {
+    background-color: #FFD400;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .footer {
+    background-color: #111;
+    color: #aaa;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer .newsletter {
+    margin-bottom: 20px;
+  }
+  
+  .footer .newsletter p {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .newsletter-input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .newsletter-input input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .newsletter-input button {
+    background-color: #FFD400;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-info, .footer-nav {
+    margin: 10px 0;
+  }
+  
+  .footer-nav a {
+    color: #aaa;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-nav a:hover {
+    color: white;
+  }

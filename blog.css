@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style:   
+ none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section   
+ *//* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.featured-post {
+    display: flex;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.featured-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.featured-content h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.featured-content .date {
+    color: #777;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.featured-content .summary {
+    margin-top: 10px;
+    color: #555;
+}
+
+.featured-content .read-more {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 12px;
+    background-color: #ffcc00;
+    color: #333;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.featured-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.all-posts h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.all-posts .post {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.all-posts .post img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.all-posts .post h4 {
+    font-size: 16px;
+    color: #333;
+}
+.footer {
+    background-color: #111;
+    color: #aaa;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer .newsletter {
+    margin-bottom: 20px;
+  }
+  
+  .footer .newsletter p {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .newsletter-input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .newsletter-input input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .newsletter-input button {
+    background-color: #FFD400;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-info, .footer-nav {
+    margin: 10px 0;
+  }
+  
+  .footer-nav a {
+    color: #aaa;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-nav a:hover {
+    color: white;
+  }
